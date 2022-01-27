@@ -1,5 +1,5 @@
 # Profile-Hidden-Markov-Model
-Using Python to solve triple HMM problems, Bioinformatics final course project, Spring 2019 <br/>
+Using Python to solve triple HMM problems, Bioinformatics final course project, Spring 2020 <br/>
 - The purpose of this project is to implement the HMM method for constructing profiles from a multiple alignment. <br/>
 - The program must first be able to find the structure of the model from an alignment, which in practice will find the number of M states in the slides (match states). Then automatically detect the sequences for DNA or proteins according to the samples (check the characters and make decisions based on them). After this, the model parameters will be learned using the input alignment <br/>
 - In the evaluation phase, you will be given two new sequences. For the first sequence you have to get the probability of producing it using the learned model (problem one) and for the second sequence you have to get the most probable alignment (sequence of states) (problem two). <br/>
